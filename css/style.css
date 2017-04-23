@@ -43,9 +43,9 @@ html, body{
    margin:0 2% 20px;
  }
   
-  @media (min-width: 350px) {
+  @media (max-width: 500px) {
    .container {
-     width: 325px;
+     display: block;
    }
  }
  @media (min-width: 768px) {
