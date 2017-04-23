@@ -2,21 +2,21 @@ html, body{
    overflow-x: hidden;
  }
  body {
-   font-family: "Lato", Helvetica, Arial, sans-serif;
+   font-family: "Raleway", Helvetica, Arial, sans-serif;
    color:#333333;
  }
  h1, h2, h3, h4, h5, h6 {
-   font-family: "Varela Round", Helvetica, Arial, sans-serif;
+   font-family: "Arvo", Helvetica, Arial, sans-serif;
  }
  h2 {
    font-size:28px;
-   font-weight: normal;
+   font-weight: 400;
    margin-bottom: 5px;
  }
  p {
    font-size:16px;
-   line-height: 19px;
-   font-weight: 100;
+   line-height: 20px;
+   font-weight: 500;
  }
 
   /* GRID */
@@ -70,8 +70,8 @@ html, body{
  /* HEADER */
  header {
    color:#FFFFFF;
-   background: #34495E;
-   background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
+   background: #2C5F85;
+   background-image: linear-gradient(206deg, #618199 0%, #2C5F85 94%);
  }
  header nav {
    padding:1em 0;
@@ -113,9 +113,10 @@ html, body{
    margin:95px 0 0;
  }
  header .hero p {
-   font-size: 22px;
-   line-height: 26px;
-   font-weight: 100;
+   font-family: "Arvo", Helvetica, Arial, sans-serif;
+   font-size: 20px;
+   line-height: 24px;
+   font-weight: 700;
    margin:10px 0 40px;
  }
  header .hero img {
@@ -130,7 +131,7 @@ html, body{
    font-weight: 700;
    text-decoration: none;
    padding:10px 30px;
-   background: #2ECC71;
-   border: 2px solid #2ECC71;
-   box-shadow: 0px 2px 0px 0px #22894E;
+   background: #BD8643;
+   border: 2px solid #BD8643;
+   box-shadow: 0px 2px 0px 0px #462D0F;
  }
