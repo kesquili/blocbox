@@ -42,8 +42,13 @@ html, body{
    min-height: 1px;
    margin:0 2% 20px;
  }
-
-  @media (min-width: 768px) {
+  
+  @media (min-width: 350px) {
+   .container {
+     width: 325px;
+   }
+ }
+ @media (min-width: 768px) {
    .container {
      width: 750px;
    }
