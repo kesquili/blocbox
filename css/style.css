@@ -90,7 +90,10 @@ html, body{
    margin:0 auto;
    padding: 0;
  }
- 
+  @media (min-width: 768px) {
+   float: right;
+   text-align: right;
+ }
  header nav ul > li {
    list-style-type: none;
    display: inline-block;
@@ -132,12 +135,7 @@ html, body{
    display: block;
    margin:3em auto 0;
    max-width: 100%;
-
  }
-  @media (min-width: 768px) {
-    float: right;
-    text-align: right;
-  }
 
  /* BUTTONS */
  .btn {
