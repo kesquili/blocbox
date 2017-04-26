@@ -303,7 +303,65 @@ html, body{
    font-size:13px;
    margin-top: 30px;
  }
-
  .move-down {
   margin-top: 10px;
+ }
+
+/* Another Call to Action */
+ .cta {
+  background: top center no-repeat, linear-gradient(206deg, #618199 0%, #2C5F85 94%);
+  text-align: center;
+  color: #FFFFFF;
+  padding: 20px;
+  }  
+
+ /* FOOTER */
+ footer {
+   background-color: #34495E;
+   background-image: linear-gradient(to top,
+      #618199 0%, #618199 50%, #2C5F85 50%, #2C5F85 100%);
+   color: #FFFFFF;
+   height: 150px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+ }
+ footer .logo{
+   margin: 0 auto;
+   display: block;
+ }
+ @media (min-width: 992px){
+   footer{
+     background-color: #618199;
+     background-image: linear-gradient(to left,
+        #618199 0%, #618199 33.33337%, #2C5F85 33.33337%, #2C5F85 100%);
+     height: 100px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+   footer .right-footer-block {
+     background-color: #3498DB;
+   }
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+   }
  }
