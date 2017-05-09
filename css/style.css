@@ -505,6 +505,9 @@ html, body{
    margin-right:10px;
    margin-top:8px;
  }
+ .left-nav .settings ul {
+   margin-top: 0;
+ }
  /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
